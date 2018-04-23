@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<form>
+	
+<label for="first name:" >First name:</label>
+<input id="first name" type="text" placeholder="jonny" required="" >
+
+<label for="last name" >Last name:</label>
+<input id="last names"  type="text" placeholder="smith" required="">
+
+<div>
+	Male
+	<input name="gender" type="radio" value="male" > 
+	Female
+	<input name="gender" type="radio" value="Female" >
+	Other
+	<input name="gender" type="radio" value="gender" >
+</div>
+
+<div>
+<label for="Email" >Email:</label>
+<input id="email" type="email" placeholder=" your email "  required="" >
+
+<label for="password" >Password:</label>
+<input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+
+
+</div>
+	
+<div>
+	
+<label>Birthday:</label>
+
+<select name="Month" >
+	<option>Month</option>
+	<option>Jan</option>
+	<option>Feb</option>
+	<option>Mar</option>
+	<option>Apr</option>
+	<option>May</option>
+</select>
+<select name="Digit" >
+	<option>Day</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	<option>6</option>
+	<option>7</option>
+	<option>8</option>
+</select>
+ 
+<select>
+	<option>Year</option>
+	<option>2018</option>
+	<option>2017</option>
+	<option>2016</option>
+	<option>2015</option>
+	<option>1999</option>
+	<option>1888</option>
+	<option>1777</option>
+	<option>1666</option>
+	<option>1555</option>
+	<option>1444</option>
+	<option>1333</option>
+</select>
+</div>
+
+<div>
+<label for agreed >I agree the terms and conditions </label>
+<input id="agreed" type="checkbox" required="" >
+</div>
+
+<div>
+	<button>Submit</button>
+</div>
+
+
+
+</form>
+
+
+</body>
+</html>
